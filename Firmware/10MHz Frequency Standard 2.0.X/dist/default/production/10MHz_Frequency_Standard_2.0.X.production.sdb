@@ -1,0 +1,246 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1822 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"49 Z:\Electronics\Projects\10MHz Frequency Standard\Firmware\10MHz Frequency Standard 2.0.X\main.c
+[v _Timer0_CallBack Timer0_CallBack `(v  1 e 0 0 ]
+"121
+[v _tc_int tc_int `II(v  1 e 0 0 ]
+"160
+[v _main main `(v  1 e 0 0 ]
+"337 C:\Program Files (x86)\Microchip\xc8\v1.35\include\pic12f1822.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S203 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"360
+[s S212 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S217 . 1 `S203 1 . 1 0 `S212 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES217  1 e 1 @11 ]
+[s S65 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"494
+[s S72 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 AN3 1 0 :1:4 
+]
+[s S78 . 1 `uc 1 CPS0 1 0 :1:0 
+`uc 1 CPS1 1 0 :1:1 
+`uc 1 CPS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CPS3 1 0 :1:4 
+]
+[s S84 . 1 `uc 1 C1INP 1 0 :1:0 
+`uc 1 C1IN0N 1 0 :1:1 
+`uc 1 C1OUT 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 C1IN1N 1 0 :1:4 
+]
+[s S90 . 1 `uc 1 DACOUT 1 0 :1:0 
+`uc 1 SRI 1 0 :1:1 
+`uc 1 SRQ 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 SRNQ 1 0 :1:5 
+]
+[s S96 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SCK 1 0 :1:1 
+`uc 1 T0CKI 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1OSO 1 0 :1:4 
+`uc 1 T1CKI 1 0 :1:5 
+]
+[s S103 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SCL 1 0 :1:1 
+`uc 1 SDA 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+`uc 1 CLKR 1 0 :1:4 
+`uc 1 T1OSI 1 0 :1:5 
+]
+[s S110 . 1 `uc 1 MDOUT 1 0 :1:0 
+`uc 1 MDMIN 1 0 :1:1 
+`uc 1 MDCIN1 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 MDCIN2 1 0 :1:4 
+]
+[s S116 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 SDI 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 OSC2 1 0 :1:4 
+`uc 1 OSC1 1 0 :1:5 
+]
+[s S122 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 FLT0 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CLKOUT 1 0 :1:4 
+`uc 1 CLKIN 1 0 :1:5 
+]
+[u S128 . 1 `S65 1 . 1 0 `S72 1 . 1 0 `S78 1 . 1 0 `S84 1 . 1 0 `S90 1 . 1 0 `S96 1 . 1 0 `S103 1 . 1 0 `S110 1 . 1 0 `S116 1 . 1 0 `S122 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES128  1 e 1 @12 ]
+[s S236 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"720
+[u S245 . 1 `S236 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES245  1 e 1 @17 ]
+"803
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1013
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"1032
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"1051
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S324 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+"1072
+[s S332 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+[u S336 . 1 `S324 1 . 1 0 `S332 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES336  1 e 1 @28 ]
+"1213
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S257 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1279
+[u S266 . 1 `S257 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES266  1 e 1 @145 ]
+"1362
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+[s S287 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1385
+[s S296 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S301 . 1 `S287 1 . 1 0 `S296 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES301  1 e 1 @149 ]
+"1552
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1609
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1680
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @154 ]
+"1747
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1766
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1785
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S19 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"1814
+[s S27 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S31 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S34 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[u S37 . 1 `S19 1 . 1 0 `S27 1 . 1 0 `S31 1 . 1 0 `S34 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES37  1 e 1 @157 ]
+"1873
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"1938
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2437
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"2578
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3117
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"5276
+[v _LATA0 LATA0 `VEb  1 e 0 @2144 ]
+"5278
+[v _LATA1 LATA1 `VEb  1 e 0 @2145 ]
+"5284
+[v _LATA5 LATA5 `VEb  1 e 0 @2149 ]
+"43 Z:\Electronics\Projects\10MHz Frequency Standard\Firmware\10MHz Frequency Standard 2.0.X\main.c
+[v _OverTemp OverTemp `uc  1 e 1 0 ]
+"44
+[v _convertedValue convertedValue `ui  1 e 2 0 ]
+"45
+[v _pwmcount pwmcount `uc  1 e 1 0 ]
+"46
+[v _pwmduty pwmduty `uc  1 e 1 0 ]
+"47
+[v _CountCallBack CountCallBack `ui  1 e 2 0 ]
+"160
+[v _main main `(v  1 e 0 0 ]
+{
+"234
+} 0
+"121
+[v _tc_int tc_int `II(v  1 e 0 0 ]
+{
+"158
+} 0
+"49
+[v _Timer0_CallBack Timer0_CallBack `(v  1 e 0 0 ]
+{
+"119
+} 0
